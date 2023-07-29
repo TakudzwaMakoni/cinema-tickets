@@ -82,7 +82,7 @@ describe('Test TicketService', function () {
 
   });
 
-  describe('calculate cost reservation', function () {
+  describe('calculate cost / reservation', function () {
 
     it('should const the price of two adults one child and two infants', function () {
 
