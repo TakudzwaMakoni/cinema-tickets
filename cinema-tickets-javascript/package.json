@@ -6,10 +6,15 @@
     "node": ">=16.15.1"
   },
   "type": "module",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "assert": "^2.0.0",
     "jest": "28.1.1",
     "mocha": "10.0.0"
   }
